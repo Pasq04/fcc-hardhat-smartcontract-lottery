@@ -80,29 +80,29 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
 
 2. Get Testnet ETH
   
-  Head over to [faucets.chain.link](https://faucets.chain.link/) and get some tesnet ETH & LINK.
-  You should see the ETH and LINK show up in your metamask.
+    Head over to [faucets.chain.link](https://faucets.chain.link/) and get some tesnet ETH & LINK.
+    You should see the ETH and LINK show up in your metamask.
 
 
 3. Setup a Chainlink VRF Subscription ID
   
-  Head over to [vrf.chain.link](https://vrf.chain.link/) and setup a new subscription, and get a subscriptionId. 
-  You can reuse an old subscription if you already have one. 
+    Head over to [vrf.chain.link](https://vrf.chain.link/) and setup a new subscription, and get a subscriptionId. 
+    You can reuse an old subscription if you already have one. 
   
-  In your `helper-hardhat-config.js` add your `subscriptionId` under the section of the chainId you're using. 
-  If you're deploying to rinkeby, add your `subscriptionId` in the `subscriptionId` field under the `4` section.
+    In your `helper-hardhat-config.js` add your `subscriptionId` under the section of the chainId you're using. 
+    If you're deploying to rinkeby, add your `subscriptionId` in the `subscriptionId` field under the `4` section.
   
-  Then run:
-  ```bash
-    npx hardhat deploy --network rinkeby
-  ```
+    Then run:
+    ```bash
+      npx hardhat deploy --network rinkeby
+    ```
 
-  And copy / remember the contract address. 
+    And copy / remember the contract address. 
   
-4. Add your contract address as a Chainlink VRF Consumer
+ 4. Add your contract address as a Chainlink VRF Consumer
 
-  Go back to [vrf.chain.link](https://vrf.chain.link) and under your subscription add `Add consumer` and add your contract address. 
-  You should also fund the contract with a minimum of 1 LINK. 
+    Go back to [vrf.chain.link](https://vrf.chain.link) and under your subscription add `Add consumer` and add your contract address. 
+    You should also fund the contract with a minimum of 1 LINK. 
 
 5. Register a Chainlink Keepers Upkeep
    
@@ -111,11 +111,11 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
     Go to [keepers.chain.link](https://keepers.chain.link/new) and register a new upkeep.
 
 6. Enter your Raffle!
-  Enter the lottery by running:
+    Enter the lottery by running:
 
-  ```bash
-    npx hardhat run scripts/enter.js --network rinkeby
-  ```
+    ```bash
+      npx hardhat run scripts/enter.js --network rinkeby
+    ```
 
 
 ## Estimate gas cost in EUR
