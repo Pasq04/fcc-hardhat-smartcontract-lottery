@@ -3,7 +3,7 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
 
 # Index
 
-- [Getting Started](#Getting Started)
+- [Getting Started](#getting-started)
   - [Requirements](#requirements)
   - [Quickstart](#quickstart)
     - [Clone from Github](#clone-from-github)
