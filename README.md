@@ -9,6 +9,7 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
     - [Clone from Github](#clone-from-github)
     - [Install dependencies](#install-dependencies)
 - [Useage](#useage)
+  - [Deploy](#deploy)
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
 - [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
@@ -39,3 +40,21 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
  ```bash
   npm i --save-dev
  ```
+# Usage
+
+## Deploy
+
+```bash
+  npx hardhat deploy
+```
+## Testing
+
+``` bash
+  npx hardhat test
+```
+
+### Test Coverage
+
+```bash
+  npx hardhat coverage
+```
