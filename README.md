@@ -70,11 +70,11 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
   
   - ### What is the `RINKEBY_RPC_URL` and how you can get it
   
-  The `RINKEBY_RPC_URL` is the URL of the Rinkeby testnet node you're going to work with during your tests, you can get it for free from [Alchemy](https://alchemy.com/?a=673c802981)
+      The `RINKEBY_RPC_URL` is the URL of the Rinkeby testnet node you're going to work with during your tests, you can get it for free from [Alchemy](https://alchemy.com/?a=673c802981)
   
   - ### What is the `PRIVATE_KEY` and how you can get it
    
-   The `PRIVATE_KEY` is the private key of your account (like from [metamask](https://metamask.io/)). 
+      The `PRIVATE_KEY` is the private key of your account (like from [metamask](https://metamask.io/)). 
    **NOTE:** FOR DEVELOPMENT, PLEASE USE A KEY THAT DOESN'T HAVE ANY REAL FUNDS ASSOCIATED WITH IT.
 
 2. Get Testnet ETH
