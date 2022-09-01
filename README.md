@@ -61,6 +61,7 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
 # Deploying to a testnet or a mainnet
 
 1. Setup environment variables
+  
   You'll set your `RINKEBY_RPC_URL` and your `PRIVATE_KEY` as environment variables. 
   You have to create a new `.env` file and put them into this file like below:
     ```Properties
@@ -93,7 +94,7 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
   
   Then run:
   ```bash
-      npx hardhat deploy --network rinkeby
+    npx hardhat deploy --network rinkeby
   ```
 
   And copy / remember the contract address. 
