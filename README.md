@@ -27,13 +27,13 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
  
  # Clone from Github
  
- '''bash
+ ```bash
   git clone https://github.com/Pasq04/fcc-hardhat-smartcontract-lottery
   cd fcc-hardhat-smartcontract-lottery
- '''
+ ```
  
  # Install dependencies
  
- '''bash
+ ```bash
   npm i --save-dev
- '''
+ ```
