@@ -58,3 +58,12 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
 ```bash
   npx hardhat coverage
 ```
+#Deploying to a testnet or a mainnet
+
+1. Setup environment variables
+  You'll set your `RINKEBY_RPC_URL` and your `PRIVATE_KEY` as environment variables. 
+  You have to create a new `.env` file and put them into this file like below:
+    ```Properties
+      RINKEBY_RPC_URL = "value"
+      PRIVATE_KEY = "value"
+     ```
