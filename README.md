@@ -13,7 +13,7 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
   - [Testing](#testing)
     - [Test Coverage](#test-coverage)
 - [Deployment to a testnet or mainnet](#deployment-to-a-testnet-or-mainnet)
-    - [Estimate gas cost in USD](#estimate-gas-cost-in-usd)
+    - [Estimate gas cost in EUR](#estimate-gas-cost-in-eur)
   - [Verify on etherscan](#verify-on-etherscan)
   
  # Getting started 
@@ -58,7 +58,7 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
 ```bash
   npx hardhat coverage
 ```
-#Deploying to a testnet or a mainnet
+# Deploying to a testnet or a mainnet
 
 1. Setup environment variables
   You'll set your `RINKEBY_RPC_URL` and your `PRIVATE_KEY` as environment variables. 
@@ -76,3 +76,13 @@ Lesson 9 of 32 hours course about Web3 fullstack by freecodecamp
    
    The `PRIVATE_KEY` is the private key of your account (like from [metamask](https://metamask.io/)). 
    **NOTE:** FOR DEVELOPMENT, PLEASE USE A KEY THAT DOESN'T HAVE ANY REAL FUNDS ASSOCIATED WITH IT.
+
+2. Get Testnet ETH
+3. Setup a Chainlink VRF Subscription ID
+4. Add your contract address as a Chainlink VRF Consumer
+5. Register a Chainlink Keepers Upkeep
+6. Enter your Raffle!
+
+## Estimate gas cost in EUR
+
+## Verify on Etherscan
